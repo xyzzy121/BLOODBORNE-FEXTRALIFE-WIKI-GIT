@@ -1,0 +1,227 @@
+.special {
+  text-align: center;
+  font-size: 18px;
+  word-wrap: normal;
+  height: 25px;
+border-bottom: 3px solid #ab966f;
+}
+
+
+/******* HR *****************/
+.deco {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 0px;
+    background-image: url('../file/Bloodborne/hr-deco-mid.png');
+    height: 25px;
+    max-width: 884px;
+}
+.decolow {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 0px;
+    background-image: url('../file/Bloodborne/hr-low.png');
+    height: 30px;
+    max-width: 884px;
+}
+@media only screen and (max-width: 836px) {
+.deco {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 0px;
+    background-image: url('../file/Bloodborne/hr-deco-mid.png');
+    height: 25px;
+    max-width: 618px;
+}
+.decolow {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 0px;
+    background-image: url('../file/Bloodborne/hr-low.png');
+    height: 12px;
+    max-width: 618px;
+}
+}
+
+@media only screen and (max-width: 480px) {
+.deco {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 0px;
+    background-image: url('../file/Bloodborne/hr-deco-mid-s.png');
+    height: 25px;
+    max-width: 300px;
+}
+.decolow {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 0px;
+    background-image: url('../file/Bloodborne/hr-deco-mid-s.png');
+    height: 6px;
+    max-width: 300px;
+}
+
+
+.wiki_link {
+display: inline-block;
+max-width: 100% !Important;
+}
+.homesprite{position:absolute;top:15px;left:15px;width:220px;height:120px;vertical-align:middle;margin-right:5px;background-image: url('../file/Dark-Souls-3/homesprite.png'); background-repeat:no-repeat;}.homesprite.general_button{background-position: 0px 0px;}.homesprite.character_button{background-position: 0px -125px;}.homesprite.equipment_button{background-position: 0px -250px;}.homesprite.online_button{background-position: 0px -375px;}.homesprite.world_button{background-position: 0px -500px;}.homesprite.guides_button{background-position: 0px -625px;}.homesprite.tools_button{background-position: 0px -750px;}.homesprite.media_button{background-position: 0px -875px;}
+.fexbar {position:relative;display:inline-block;margin:5px;padding:3px;width:220px;height:120px}
+.fexbar a {position:absolute;top:3px;left:3px;width:220px;height:120px;text-indent:-9999px}
+blockquote p {
+font-family: "arial";
+color: #B4B2B0;
+font-style: italic;
+font-weight: normal;
+text-indent: 48px;
+font-size: 17px;
+max-width: 800px;
+}
+@media only screen and (max-width: 836px) {
+#mobilediv {
+display: none !important;
+}
+}
+img, input {
+max-width: 100% !important;
+}
+iframe, object, embed {
+display: inline-block;
+max-width: 100%;
+}
+.bonfire {line-height:inherit !Important; height:inherit !Important}
+.titlearea {line-height:inherit !Important; height:inherit !Important}
+}
+.spoilertitle { cursor: pointer; padding-left: 10px; background-color: #7C6C50; background-image: linear-gradient(to right, #AB966F, #000); color: #EEE; font-size: 15px; font-weight: bold; line-height: 24px }
+#.spoilercontent { height: 0px; overflow: hidden; transition: height 0.5s ease 0s }
+.spoilercontent { height: 0px; transition: height 0.5s ease 0s }
+/******* Col Spans *****************/
+.span_1_of_5 {
+width: 19% !important;
+border-style: solid;
+border-color: #AB966F #AB966F;
+margin: 0.4% !important;
+}
+@media only screen and (max-width: 480px) {
+.span_3_of_12,
+.span_1_of_7,
+.span_2_of_6,
+.span_1_of_1,
+.span_1_of_2,
+.span_1_of_3,
+.span_2_of_8,
+.span_1_of_5 {
+width: 100% !important;
+}
+#desktopdiv {
+display: none !important;
+}
+.desktopspan {
+display: none !important;
+}
+}
+.row {
+margin-right: 0px;
+margin-left: 0px;
+}
+p {
+font-size: 14px;
+}
+.videoWrapper {
+position: relative;
+padding-bottom: 56.25%; /* 16:9 */
+padding-top: 25px;
+height: 0;
+}
+.videoWrapper iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.titlearea {
+text-align: center;
+font-size: 18px;
+word-wrap: normal;
+background: url(../file/Dark-Souls-3---jp/h1-flowers.png) no-repeat left center;
+background-position: 3px 4px;
+border-top: 3px solid #ab966f;
+border-bottom: 3px solid #ab966f;
+margin: 18px 0px;
+height: 45px;
+line-height: 40px;
+}
+.bonfire {
+word-wrap: normal;
+background: url(../file/Bloodborne/huntersmark_small.png) no-repeat left center;
+padding-left: 45px;
+height: 45px;
+line-height: 70px;
+text-align: -moz-left;
+}
+@-moz-document url-prefix() {
+fieldset { display: table-cell; }
+}
+.vip {
+background: url("../file/Bloodborne/bloodborne-wiki-table.jpg") no-repeat scroll -90px -70px #000;
+border: 1px solid #717171;
+border-radius: 6px;
+color: #FFF;
+overflow: hidden;
+padding: 10px 10px;
+width: 250px;}
+/* SECTIONS */
+.section {
+clear: both;
+padding: 0px;
+margin: 0px;
+}
+/* COLUMN SETUP */
+.col {
+display: block;
+float:left;
+margin: 1% 0 1% 0.16%;
+padding: 1%;
+}
+.col:first-child { margin-left: 0; }
+/* GROUPING */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/* GRID OF SIX */
+.span_6_of_6 {
+width: 100%;
+}
+.span_5_of_6 {
+width: 83.3%;
+}
+.span_4_of_6 {
+width: 66.6%;
+}
+.span_3_of_6 {
+width: 47.9%;
+}
+.span_2_of_6 {
+width: 31%;
+background-color: rgba(36, 32, 28, 0.66);
+}
+.span_2_of_6 tr th tr td {padding: 5px; border:0px solid #000 !important}
+.span_1_of_6 {
+width: 16.5%;
+}
+/* GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+.col { margin: 1% 0 1% 0%; }
+.span_1_of_6, .span_2_of_6, .span_3_of_6, .span_4_of_6, .span_5_of_6, .span_6_of_6 { width: 100%; }
+}
+
+#wiki-content-block #ifrmDiv{position:absolute !important;}
